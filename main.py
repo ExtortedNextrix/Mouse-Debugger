@@ -1,4 +1,4 @@
-#  OpenSource Mouse Debugger by Extorted Nextrix
+#  Mouse Debugger by Extorted Nextrix
 
 import pyautogui, os, time, keyboard as k
 from colorama import Fore
