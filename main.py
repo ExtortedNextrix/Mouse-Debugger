@@ -1,6 +1,6 @@
-#  Mouse Debugger by Extorted Nextrix
+#  OpenSource Mouse Debugger by Extorted Nextrix
 
-import pyautogui, os, time, keyboard as k
+import pyautogui, os, time, keyboard as k, ctypes
 from colorama import Fore
 
 
@@ -18,8 +18,10 @@ from colorama import Fore
 
 """
 
+
 class Main:
     os.system('cls' if os.name == 'nt' else 'clear')
+    ctypes.windll.kernel32.SetConsoleTitleW("Mouse Debugger by nextrix#8446")
     print(f"{Fore.BLUE}Mouse Debug Script by {Fore.LIGHTMAGENTA_EX}nextrix#8446\n")
     def mousePos():
         os.system('cls' if os.name == 'nt' else 'clear')
