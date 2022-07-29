@@ -18,7 +18,6 @@ from colorama import Fore
 
 """
 
-
 class Main:
     os.system('cls' if os.name == 'nt' else 'clear')
     print(f"{Fore.BLUE}Mouse Debug Script by {Fore.LIGHTMAGENTA_EX}nextrix#8446\n")
